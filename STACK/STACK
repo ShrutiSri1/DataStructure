@@ -1,0 +1,39 @@
+STACK
+
+1) Stack is a linear data structure which follows a particular order in which the operations are performed.
+
+2)Stack follows LIFO order in which the element entered last in the stack  will be deleted or pushed out first.
+
+3)The two main operation of stack are:
+   i)push() : to insert an element in the stack
+  ii)pop() : to delete an element from the stack
+
+4)PUSH_STACK(STACK,TOP,MAX,ITEM)
+
+Algorithm to push an item into stack.
+            
+    1) IF TOP = MAX   then
+    Print “Stack is full”;
+    Exit;
+    2) Otherwise
+    TOP: = TOP + 1;        /*increment TOP*/
+    STACK (TOP):= ITEM;
+    3) End of IF
+    4) Exit
+ 
+
+5 )POP_STACK(STACK,TOP,ITEM)
+
+    Algorithm to pop an element from stack.
+
+    1) IF TOP = 0 then
+        Print “Stack is empty”;
+        Exit;
+    2) Otherwise
+        ITEM: =STACK (TOP);
+        TOP:=TOP – 1;
+    3) End of IF
+    4) Exit
+
+
+
